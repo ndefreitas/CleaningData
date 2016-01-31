@@ -1,3 +1,3 @@
 # CleaningData
-# *** Usage Instructions ***
-# scrub.data()
+## *** Usage Instructions ***
+### scrub.data()
