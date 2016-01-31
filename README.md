@@ -15,3 +15,10 @@ extracts the mean and standard deviation into.
 The next step calls "cy <- name.activities(mergedData$y)" which
 applies proper names to the activities.
 
+The next step calls "combinedData <- combine.data(cx, cy, mergedData$subject)"
+which combines the data frames.
+
+The next step creates the scrubbed data "cleanData <- create.clean.dataset(combinedData)".
+then writes it to an output file "UCI_HAR_CleanData.csv" in the working directory.
+
+
