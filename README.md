@@ -1,7 +1,11 @@
-# CleaningData
-### *** Usage Instructions ***
+# run_analysis.R CodeBook
+
+### *** Execution Sample ***
 scrub.data()
 
+The above command runs the analysis.
+
+### *** Variable & Function descriptions ***
 The "scrub.data()" function is the main driver for this R script.
 It first calls "download.data()" which will fetch new data if there's 
 no local cache of already downloaded data. 
